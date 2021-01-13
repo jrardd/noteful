@@ -21,7 +21,6 @@ export default function NoteListMain(props) {
           type="button"
           className="NoteListMain__add-note-button"
         >
-          <FontAwesomeIcon icon="plus" />
           <br />
           Note
         </CircleButton>

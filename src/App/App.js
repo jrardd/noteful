@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Route, Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NoteListNav from "../NoteListNav/NoteListNav";
 import NotePageNav from "../NotePageNav/NotePageNav";
 import NoteListMain from "../NoteListMain/NoteListMain";
@@ -83,7 +82,7 @@ class App extends Component {
         <nav className="App__nav">{this.renderNavRoutes()}</nav>
         <header className="App__header">
           <h1>
-            <Link to="/">Noteful</Link> <FontAwesomeIcon icon="check-double" />
+            <Link to="/">Noteful</Link>
           </h1>
         </header>
         <main className="App__main">{this.renderMainRoutes()}</main>
